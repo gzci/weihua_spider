@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<named-config name="send">
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://biaoshuking.mysql.rds.aliyuncs.com:3306/?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;useServerPrepStmts=true&amp;rewriteBatchedStatements=true
+		</property>
+		<property name="user">bigdatabase</property>
+		<property name="password">Bigdatabase@180424#z</property>
+		<property name="initialPoolSize">10</property>
+		<property name="acquireIncrement">5</property>
+		<property name="maxIdleTime">30</property>
+		<property name="maxPoolSize">100</property>
+		<property name="minPoolSize">10</property>
+		<property name="maxStatements">200</property>
+		<property name="testConnectionOnCheckin" value="false"/>
+    	<property name="testConnectionOnCheckout" value="true"/>
+	</named-config>
+	<named-config name="st-bigdatabase-test">
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://test-yansou.mysql.rds.aliyuncs.com:3306/st-bigdatabase?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;useServerPrepStmts=true&amp;rewriteBatchedStatements=true
+		</property>
+		<property name="user">cim</property>
+		<property name="password">yansou2016+</property>
+		<property name="initialPoolSize">10</property>
+		<property name="acquireIncrement">5</property>
+		<property name="maxIdleTime">30</property>
+		<property name="maxPoolSize">100</property>
+		<property name="minPoolSize">10</property>
+		<property name="maxStatements">200</property>
+		<property name="testConnectionOnCheckin" value="false"/>
+    	<property name="testConnectionOnCheckout" value="true"/>
+	</named-config>
+	<named-config name="zt-bigdatabase-test">
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://test-yansou.mysql.rds.aliyuncs.com:3306/zt-bigdatabase?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;useServerPrepStmts=true&amp;rewriteBatchedStatements=true
+		</property>
+		<property name="user">cim</property>
+		<property name="password">yansou2016+</property>
+		<property name="initialPoolSize">10</property>
+		<property name="acquireIncrement">5</property>
+		<property name="maxIdleTime">30</property>
+		<property name="maxPoolSize">100</property>
+		<property name="minPoolSize">10</property>
+		<property name="maxStatements">200</property>
+		<property name="testConnectionOnCheckin" value="false"/>
+    	<property name="testConnectionOnCheckout" value="true"/>
+	</named-config>
+	<named-config name="ci-bigdatabase-test">
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://test-yansou.mysql.rds.aliyuncs.com:3306/ci-bigdatabase?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;useServerPrepStmts=true&amp;rewriteBatchedStatements=true
+		</property>
+		<property name="user">cim</property>
+		<property name="password">yansou2016+</property>
+		<property name="initialPoolSize">10</property>
+		<property name="acquireIncrement">5</property>
+		<property name="maxIdleTime">30</property>
+		<property name="maxPoolSize">100</property>
+		<property name="minPoolSize">10</property>
+		<property name="maxStatements">200</property>
+		<property name="testConnectionOnCheckin" value="false"/>
+    	<property name="testConnectionOnCheckout" value="true"/>
+	</named-config>
+	<named-config name="st-app-test">
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://test-yansou.mysql.rds.aliyuncs.com:3306/st-app?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;useServerPrepStmts=true&amp;rewriteBatchedStatements=true
+		</property>
+		<property name="user">cim</property>
+		<property name="password">yansou2016+</property>
+		<property name="initialPoolSize">10</property>
+		<property name="acquireIncrement">5</property>
+		<property name="maxIdleTime">30</property>
+		<property name="maxPoolSize">100</property>
+		<property name="minPoolSize">10</property>
+		<property name="maxStatements">200</property>
+		<property name="testConnectionOnCheckin" value="false"/>
+    	<property name="testConnectionOnCheckout" value="true"/>
+	</named-config>
+	
+	<named-config name="ci-test">
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://test-yansou.mysql.rds.aliyuncs.com:3306/ci?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;useServerPrepStmts=true&amp;rewriteBatchedStatements=true
+		</property>
+		<property name="user">cim</property>
+		<property name="password">yansou2016+</property>
+		<property name="initialPoolSize">10</property>
+		<property name="acquireIncrement">5</property>
+		<property name="maxIdleTime">30</property>
+		<property name="maxPoolSize">100</property>
+		<property name="minPoolSize">10</property>
+		<property name="maxStatements">200</property>
+		<property name="testConnectionOnCheckin" value="false"/>
+    	<property name="testConnectionOnCheckout" value="true"/>
+	</named-config>
+	<!--正式库 -->
+	<named-config name="st-bigdatabase">
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://biaoshuking.mysql.rds.aliyuncs.com:3306/st-bigdatabase?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;useServerPrepStmts=true&amp;rewriteBatchedStatements=true
+		</property>
+		<property name="user">bigdatabase</property>
+		<property name="password">Bigdatabase@180424#z</property>
+		<property name="initialPoolSize">10</property>
+		<property name="acquireIncrement">5</property>
+		<property name="maxIdleTime">30</property>
+		<property name="maxPoolSize">100</property>
+		<property name="minPoolSize">10</property>
+		<property name="maxStatements">200</property>
+		<property name="testConnectionOnCheckin" value="false"/>
+    	<property name="testConnectionOnCheckout" value="true"/>
+	</named-config>
+	<named-config name="zt-bigdatabase">
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://biaoshuking.mysql.rds.aliyuncs.com:3306/zt-bigdatabase?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;useServerPrepStmts=true&amp;rewriteBatchedStatements=true
+		</property>
+		<property name="user">bigdatabase</property>
+		<property name="password">Bigdatabase@180424#z</property>
+		<property name="initialPoolSize">10</property>
+		<property name="acquireIncrement">5</property>
+		<property name="maxIdleTime">30</property>
+		<property name="maxPoolSize">100</property>
+		<property name="minPoolSize">10</property>
+		<property name="maxStatements">200</property>
+		<property name="testConnectionOnCheckin" value="false"/>
+    	<property name="testConnectionOnCheckout" value="true"/>
+	</named-config>
+	<named-config name="ci-bigdatabase">
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://biaoshuking.mysql.rds.aliyuncs.com:3306/ci-bigdatabase?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;useServerPrepStmts=true&amp;rewriteBatchedStatements=true
+		</property>
+		<property name="user">bigdatabase</property>
+		<property name="password">Bigdatabase@180424#z</property>
+		<property name="initialPoolSize">10</property>
+		<property name="acquireIncrement">5</property>
+		<property name="maxIdleTime">30</property>
+		<property name="maxPoolSize">100</property>
+		<property name="minPoolSize">10</property>
+		<property name="maxStatements">200</property>
+		<property name="testConnectionOnCheckin" value="false"/>
+    	<property name="testConnectionOnCheckout" value="true"/>
+	</named-config>
+	<named-config name="st-app">
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://biaoshuking.mysql.rds.aliyuncs.com:3306/st-app?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;useServerPrepStmts=true&amp;rewriteBatchedStatements=true
+		</property>
+		<property name="user">bigdatabase</property>
+		<property name="password">Bigdatabase@180424#z</property>
+		<property name="initialPoolSize">10</property>
+		<property name="acquireIncrement">5</property>
+		<property name="maxIdleTime">30</property>
+		<property name="maxPoolSize">100</property>
+		<property name="minPoolSize">10</property>
+		<property name="maxStatements">200</property>
+		<property name="testConnectionOnCheckin" value="false"/>
+    	<property name="testConnectionOnCheckout" value="true"/>
+	</named-config>
+	<named-config name="dbweb-prod">
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://biaoshuking.mysql.rds.aliyuncs.com:3306/dbweb-prod?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;useServerPrepStmts=true&amp;rewriteBatchedStatements=true
+		</property>
+		<property name="user">lanxi1001</property>
+		<property name="password">Yansou@Lanxi#1023</property>
+		<property name="initialPoolSize">10</property>
+		<property name="acquireIncrement">5</property>
+		<property name="maxIdleTime">30</property>
+		<property name="maxPoolSize">100</property>
+		<property name="minPoolSize">10</property>
+		<property name="maxStatements">200</property>
+		<property name="testConnectionOnCheckin" value="false"/>
+    	<property name="testConnectionOnCheckout" value="true"/>
+	</named-config>
+	<named-config name="ci">
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://biaoshuking.mysql.rds.aliyuncs.com:3306/ci?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;useServerPrepStmts=true&amp;rewriteBatchedStatements=true
+		</property>
+		<property name="user">bigdatabase</property>
+		<property name="password">Bigdatabase@180424#z</property>
+		<property name="initialPoolSize">10</property>
+		<property name="acquireIncrement">5</property>
+		<property name="maxIdleTime">30</property>
+		<property name="maxPoolSize">100</property>
+		<property name="minPoolSize">10</property>
+		<property name="maxStatements">200</property>
+		<property name="testConnectionOnCheckin" value="false"/>
+    	<property name="testConnectionOnCheckout" value="true"/>
+	</named-config>
+</c3p0-config>

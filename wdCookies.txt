@@ -1,0 +1,7 @@
+EEAkIjcBEarJg;bjyansou;www.okcis.cn;/;Wed Sep 12 19:59:42 CST 2018;false
+Hm_lpvt_b6ff6d574fb1848824f05f0662e8a0fc;1536747630;.okcis.cn;/;null;false
+myuniseqid;bff6ec614c54f5f48fc6eee4d12781b7;www.okcis.cn;/;Fri Oct 12 18:19:42 CST 2018;false
+infopass;56573208;www.okcis.cn;/;Wed Sep 12 19:59:42 CST 2018;false
+et4321;2018-09-12+18%3A19%3A47COOKIEITEMbjyansouCOOKIEITEM124.127.193.93COOKIEITEMnot+in+proxylistCOOKIEFIELD2018-09-12+18%3A19%3A17COOKIEITEMCOOKIEITEM124.127.193.93COOKIEITEMnot+in+proxylist;www.okcis.cn;/php/myoffice/;Wed Sep 12 19:19:47 CST 2018;false
+PHPSESSID;d7on4bnu3cn2or7pfdjqrvsqo6;.okcis.cn;/;null;false
+Hm_lvt_b6ff6d574fb1848824f05f0662e8a0fc;1536747599;.okcis.cn;/;Thu Sep 12 18:20:29 CST 2019;false
